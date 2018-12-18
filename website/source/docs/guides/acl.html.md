@@ -12,7 +12,7 @@ Consul uses Access Control Lists (ACLs) to secure the UI, API, CLI, service comm
 
 At the core, ACLs operate by grouping rules into policies, then associating one or more policies with a token.
 
-To complete this guide, you should have an operation Consul 1.4+ cluster. We also recommend reading the [ACL System documentation](/docs/agent/acl-system.html). For securing Consul version 1.3 and older, please read the [legacy documentation](https://www.consul.io/docs/guides/acl-legacy.html).
+To complete this guide, you should have an operational Consul 1.4+ cluster. We also recommend reading the [ACL System documentation](/docs/agent/acl-system.html). For securing Consul version 1.3 and older, please read the [legacy ACL documentation](https://www.consul.io/docs/guides/acl-legacy.html).
 
 Bootstrapping the ACL system is a multi-step process, we will cover all the necessary steps in this guide. 
 
