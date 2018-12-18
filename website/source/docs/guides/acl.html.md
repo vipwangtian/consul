@@ -443,5 +443,5 @@ by default, but with limited access to discover only the "consul" service. If yo
 2. It is recommended that each client get an ACL agent token with `node` write privileges for just its own node name, and `service` read privileges for just the service prefixes expected to be registered on that client.
 
 3. [Anti-entropy](/docs/internals/anti-entropy.html) syncing requires the ACL agent token
-to have `service` read privileges for all services that may be registered with the agent,
+to have `service:write` privileges for all services that may be registered with the agent,
 so generally an empty `service` prefix can be used, as shown in the example.
