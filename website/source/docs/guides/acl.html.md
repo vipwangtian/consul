@@ -436,7 +436,7 @@ Now that you have bootstrapped ACLs, learn more about [ACL rules](/docs/agent/ac
 ### Notes on Security 
 
 In this guide we configured a basic ACL environment with the ability to see all nodes
-by default, but has limited access to just the "consul" service. If your environment has stricter security requirements we would like to note the following and make some additional recommendations. 
+by default, but with limited access to discover only the "consul" service. If your environment has stricter security requirements we would like to note the following and make some additional recommendations. 
 
 1. In this guide we added both the master and agent tokens to the configuration file. This means the tokens are now saved on disk. If this is a security concern, tokens can be added to agents using the [Consul CLI](https://www.consul.io/docs/commands/acl/acl-set-agent-token.html). However, this process is more complicated and takes additional care. 
 
