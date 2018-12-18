@@ -242,7 +242,7 @@ Now that the nodes have been configured to use ACLs, we can configure the CLI, U
 
 #### Configure the Anonymous Token (Optional)
 
-The anonymous token is created during the bootstrap process, `consul acl bootstrap`. It is implicitly used if no token is supplied. In this section we updating the existing token with an newly created policy.
+The anonymous token is created during the bootstrap process, `consul acl bootstrap`. It is implicitly used if no token is supplied. In this section we will update the existing token with a newly created policy.
 
 At this point ACLs are bootstrapped with ACL agent tokens configured, but there are no
 other policies set up. Even basic operations like `consul members` will be restricted
