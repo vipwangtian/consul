@@ -39,7 +39,7 @@ The first step for bootstrapping the ACL system is to enable ACLs on the Consul 
 ```
 
 The servers will need to be restarted to load the new configuration. Please take care
-to start the servers one at a time and ensure each server has joined and is operating
+to restart the servers one at a time and ensure each server has joined and is operating
 correctly before starting another.
 
 If ACLs are enabled correctly, we will now see the following warnings and info in the leader’s logs.
