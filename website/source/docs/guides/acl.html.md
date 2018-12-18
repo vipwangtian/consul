@@ -55,7 +55,7 @@ If ACLs are enabled correctly, we will now see the following warnings and info i
 
 If you do not see ACL bootstrap enabled, the anonymous token creation, and the `global-management` policy creation message in the logs, ACLs have not been properly enabled. 
 
-Note, now that we have enabled ACLs, we will need a token to complete any operation. The one exception is creating the first bootstrap token. For simplicity we will use the master token created during the bootstrap for the remainder of the guide.
+Note, now that we have enabled ACLs, we will need a token to complete any operation. We can't do anything else to the cluster until we bootstrap and generate the first master token. For simplicity we will use the master token created during the bootstrap for the remainder of the guide.
 
 ## Step 2: Create the Bootstrap Token
 
