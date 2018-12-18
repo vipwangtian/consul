@@ -156,7 +156,7 @@ The returned value is the newly-created policy that we can now use when creating
 ## Step 5: Create an Agent Token
 
 
-Using the newly created policy, we can create our first token. Again we can complete this process on any of the servers.  Additionally, we will only need to create one token that can be shared with all the servers. Note, the `SecretID` is the token. 
+Using the newly created policy, we can create an agent token. Again we can complete this process on any of the servers. For this guide, all agents will share the same token. Note, the `SecretID` is the token used to authenticate API and CLI commands. 
 
 ```sh
 $ consul acl token create -description "Agent Token" -policy-name "agent-token" -token "4411f091-a4c9-48e6-0884-1fcb092da1c8"
