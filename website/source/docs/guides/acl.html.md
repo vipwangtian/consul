@@ -121,7 +121,7 @@ wolf    172.20.20.12:8301  alive   server  1.4.0  2         kc  <all>
 ## Step 4: Create an Agent Token Policy
 
 
-Before we can create a token, we will need to create its associated policy. A policy is a set of rules that can used to create granular permissions. To learn more about rules, read the ACL rule specification [documentation](/docs/agent/acl-rules.html).
+Before we can create a token, we will need to create its associated policy. A policy is a set of rules that can used to specify granular permissions. To learn more about rules, read the ACL rule specification [documentation](/docs/agent/acl-rules.html).
 
 ```bash
 # agent-policy.hcl contains the following:
