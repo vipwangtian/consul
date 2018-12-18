@@ -10,7 +10,7 @@ description: |-
 
 Consul uses Access Control Lists (ACLs) to secure the UI, API, CLI, service communications, and agent communications. For securing gossip and RPC communication please review [this guide](/docs/guides/agent-encryption.html). When securing your cluster you should configure the ACLs first. 
 
-ACLs are similar to Identity and Access Management (IAM) and Role Based Access Control (RBAC). At the core, ACLs operates by adding a rule to a policy, then associating a policy with a token. For scalability, multiple policies can be added to a single token. 
+At the core, ACLs operate by grouping rules into policies, then associating one or more policies with a token.
 
 To complete this guide, you should have an operation Consul 1.4+ cluster. We also recommend reading the [ACL System documentation](/docs/agent/acl-system.html). For securing Consul version 1.3 and older, please read the [legacy documentation](https://www.consul.io/docs/guides/acl-legacy.html).
 
