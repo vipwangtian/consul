@@ -36,7 +36,7 @@ start(){
             exit 0
         fi
     fi
-    daemon --check ${CONSUL} "nohup ${CONSUL} agent -config-file=${CONFIGFILE} -log-file=${LOGFILE} -pid-file=${PIDFILE} > ${DAEMON_OUT} 2>&1 < /dev/null &"
+    daemon --pidfile ${PIDFILE} "nohup ${CONSUL} agent -config-file=${CONFIGFILE} -log-file=${LOGFILE} -pid-file=${PIDFILE} > ${DAEMON_OUT} 2>&1 < /dev/null &"
     #nohup ${CONSUL} agent -config-file="${CONFIGFILE}" -log-file="${LOGFILE}" -pid-file="${PIDFILE}" > "${DAEMON_OUT}" 2>&1 < /dev/null &
     RETVAL=$?
     echo
